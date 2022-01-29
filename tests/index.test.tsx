@@ -4,6 +4,6 @@ import Component from '@/index';
 describe('Default cases', () => {
   test('Rendered', () => {
     render(<Component />);
-    expect(screen.getByText('This is a UI Component')).toBeInTheDocument();
+    expect(screen.getByText('hello')).toBeInTheDocument();
   });
 });
